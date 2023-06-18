@@ -1,6 +1,6 @@
 baseURL = 'https://golang-education.onrender.com'
 languageCode = 'en-us'
-title = 'Golang Education Blog'
+title = 'Golang Education'
 theme = 'ananke'
 pagination = 5
 summaryLength = 50
@@ -9,11 +9,23 @@ enableRobotsTXT = true
 enableSitemap = true
 googleAnalytics = 'UA-XXXXXXXXX-X'
 disqusShortname = 'golang-education'
-commentoEnable = true
+commentoEnable = false
 commentoUrl = 'https://commento.golang.education'
 commentoId = 'golang-education'
-commentoTitle = 'Golang Education Blog'
+commentoTitle = 'Golang Education'
 commentoDescription = 'Golang Education Blog'
+
+
+[languages]
+  [languages.en]
+    title = "Golang Education"
+    weight = 1
+    contentDir = "content/en"
+    # languageDirection = 'rtl' for Right-To-Left languages
+  [languages.ro]
+    title = "Golang Education"
+    weight = 2
+    contentDir = "content/ro"
 
 
 [params.logo]
@@ -28,7 +40,7 @@ commentoDescription = 'Golang Education Blog'
 [params.social]
     twitter = 'https://twitter.com/golang_education'
     github = 'https://github.com/doITmagic'
-    linkedin = 'https://twitter.com/golangedu'
+    linkedin = ''
 
 
 [params.footer]
