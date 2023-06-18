@@ -1,4 +1,68 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://golang-education.onrender.com'
 languageCode = 'en-us'
 title = 'Golang Education Blog'
 theme = 'ananke'
+pagination = 5
+summaryLength = 50
+enableEmoji = true
+enableRobotsTXT = true
+enableSitemap = true
+googleAnalytics = 'UA-XXXXXXXXX-X'
+disqusShortname = 'golang-education'
+commentoEnable = true
+commentoUrl = 'https://commento.golang.education'
+commentoId = 'golang-education'
+commentoTitle = 'Golang Education Blog'
+commentoDescription = 'Golang Education Blog'
+
+
+[params.logo]
+    logoText = 'Golang Education'
+    logoHomeLink = '/'
+[params] 
+    description = 'Golang Education Blog'
+    author =  'Razvan Sima'
+    github_repo = 'https://github.com/doITmagic/golang.education.git'
+    github_repo_name = 'golang.education'
+
+[params.social]
+    twitter = 'https://twitter.com/golang_education'
+    github = 'https://github.com/doITmagic'
+    linkedin = 'https://twitter.com/golangedu'
+
+
+[params.footer]
+    footerText = 'Golang Education Blog'
+    footerHomeLink = '/'
+    footerCopy = '© 2023 Golang Education Blog'
+    footerCopyLink = 'https://golang.education'
+    footerPrivacy = 'Privacy Policy'
+    footerPrivacyLink = 'https://golang.education/privacy-policy'
+    footerTerms = 'Terms of Use'
+    footerTermsLink = 'https://golang.education/terms-of-use'
+    footerContact = 'Contact Us'
+    footerContactLink = 'https://golang.education/contact-us'
+    footerSitemap = 'Sitemap'
+    footerSitemapLink = 'https://golang.education/sitemap.xml'
+    footerRSS = 'RSS'
+    footerRSSLink = 'https://golang.education/index.xml'
+    footerLicense = 'License'
+    footerLicenseLink = 'https://golang.education/license'
+    footerCredits = 'Credits'
+    footerCreditsLink = 'https://golang.education/credits'
+    footerCreditsText = 'Golang Education Blog'
+    footerCreditsTextLink = 'https://golang.education'
+
+[params.favicon]
+    faviconIco = 'favicon.ico'
+    favicon16 = 'favicon-16x16.png'
+    favicon32 = 'favicon-32x32.png'
+    faviconApple = 'apple-touch-icon.png'
+    faviconSafari = 'safari-pinned-tab.svg'
+    faviconAndroid = 'android-chrome-192x192.png'
+    faviconMs = 'mstile-150x150.png'
+    faviconBrowserconfig = 'browserconfig.xml'
+    faviconManifest = 'site.webmanifest'
+    faviconMaskIcon = 'safari-pinned-tab.svg'
+    faviconMaskIconColor = '#5bbad5'
+    faviconThemeColor = '#ffffff'
